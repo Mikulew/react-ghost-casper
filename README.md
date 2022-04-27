@@ -1,46 +1,40 @@
-# Getting Started with Create React App
+# React Ghost Casper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Demo](#demo)
+- [Articles](#articles)
 
-In the project directory, you can run:
+## General info
 
-### `npm start`
+The term _“render prop”_ refers to a technique for sharing code between React components using a prop whose value is a function.
+_A render prop_ is a function prop that a component uses to know what to render.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I made a simple example of this pattern with the ghost Casper.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React 18
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+- WIP
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Articles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React documentation: Render props](https://reactjs.org/docs/render-props.html#gatsby-focus-wrapper)
+- [Render Props Pattern](https://patterns.dev/posts/render-props-pattern/)
+- [Onkar Shingate: Render Props in ReactJS](https://medium.com/geekculture/render-props-in-reactjs-d672e3106bc1)
+- [Trey Huffine: Understanding React Render Props by Example](https://levelup.gitconnected.com/understanding-react-render-props-by-example-71f2162fd0f2)
+- [Leanne Zhang: Render Props — what, how, why, and when we should use it?](https://leannezhang.medium.com/render-props-what-how-why-and-when-we-should-use-it-be3ff257b0f5)
+- [React Reference Guide: Render props](https://blog.logrocket.com/react-reference-guide-render-props/)
+- [Render Props – An Advanced React Pattern](https://flexiple.com/react/render-props-an-advanced-react-pattern)
+- [Michael Jackson: Use a Render Prop!](https://medium.com/@mjackson/use-a-render-prop-50de598f11ce)
+- [Sebhastian: React render props pattern](https://sebhastian.com/react-render-props/)
+- [Frontstack: React render props, czyli alternatywa dla HOC](https://frontstack.pl/react-render-props-czyli-alternatywa-dla-hoc/)
+- [szczecinski.eu: render props](https://szczecinski.eu/docs/advanced-react/component-patterns/render-props)
